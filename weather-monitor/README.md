@@ -13,6 +13,10 @@ The **Real-Time Weather Monitoring System** is designed to gather, store, and vi
 - Sends email alerts based on custom weather conditions.
 - Automatically schedules data fetches at regular intervals.
 
+  
+## Project Structure
+![image](https://github.com/user-attachments/assets/d853717c-3a76-4948-8ed5-d5479aec0f77)
+
 
 ## Getting Started
 

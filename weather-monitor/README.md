@@ -42,17 +42,7 @@ Before starting, ensure you have:
     pip install -r requirements.txt
     ```
 
-3. **Configure the project**:
+3. **Run the application**:
 
-   Edit the `config.py` file to add your API key and email settings:
-
-   ```python
-   API_KEY = '8f314a8adcccce7a2d05e909d12bbebe'
-   DATABASE_URI = 'sqlite:///weather_data.db'
-   EMAIL_SENDER = 'ambatigurusuresh88@gmail.com '
-   EMAIL_RECEIVER = 'receiver_email@gmail.com'
-   EMAIL_PASSWORD = 'your_email_password'
-4.**Run the application:
-
-    python weather_monitor.py
+   python weather_monitor.py
     

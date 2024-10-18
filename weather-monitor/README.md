@@ -13,5 +13,41 @@ The **Real-Time Weather Monitoring System** is designed to gather, store, and vi
 - Sends email alerts based on custom weather conditions.
 - Automatically schedules data fetches at regular intervals.
 
-## Project Structure
 
+## Getting Started
+
+### Prerequisites
+
+Before starting, ensure you have:
+
+- Python 3.10 or higher installed
+- SQLite (optional for manual inspection of the database)
+
+### Installation
+
+1. **Clone the repository**:
+
+    ```bash
+    git clone https://github.com/Gurusuresh/weather-monitor.git
+    cd weather-monitor
+    ```
+
+2. **Install dependencies**:
+
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+3. **Configure the project**:
+
+   Edit the `config.py` file to add your API key and email settings:
+
+   ```python
+   API_KEY = 'your_openweathermap_api_key'
+   DATABASE_URI = 'sqlite:///weather_data.db'
+   EMAIL_SENDER = 'your_email@gmail.com'
+   EMAIL_RECEIVER = 'receiver_email@gmail.com'
+   EMAIL_PASSWORD = 'your_email_password'
+4.**Run the application:
+
+python weather_monitor.py

@@ -43,9 +43,9 @@ Before starting, ensure you have:
    Edit the `config.py` file to add your API key and email settings:
 
    ```python
-   API_KEY = 'your_openweathermap_api_key'
+   API_KEY = '8f314a8adcccce7a2d05e909d12bbebe'
    DATABASE_URI = 'sqlite:///weather_data.db'
-   EMAIL_SENDER = 'your_email@gmail.com'
+   EMAIL_SENDER = 'ambatigurusuresh88@gmail.com '
    EMAIL_RECEIVER = 'receiver_email@gmail.com'
    EMAIL_PASSWORD = 'your_email_password'
 4.**Run the application:

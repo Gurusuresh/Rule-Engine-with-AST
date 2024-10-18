@@ -44,5 +44,6 @@ Before starting, ensure you have:
 
 3. **Run the application**:
 
-     ```python weather_monitor.py
-     ```
+    ```bash
+    python weather_monitor.py
+    ```

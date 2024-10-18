@@ -50,5 +50,5 @@ Before starting, ensure you have:
    EMAIL_PASSWORD = 'your_email_password'
 4.**Run the application:
 
-    ```python weather_monitor.py
-    ```
+    python weather_monitor.py
+    
